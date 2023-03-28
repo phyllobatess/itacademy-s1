@@ -9,38 +9,59 @@
     flex-flow: column nowrap;
 }
 .header{
-    background: #001 ;
+    /* background: #001 ; */
     display: flex; 
     flex-flow: column nowrap;
+    background-image: url("images/header.jpg");
+      height: 190px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover; /* Resize the background image to cover the entire container */
 }
 .menu{
-    background: #2d4059;
+    /* background: #2d4059; */
     display: flex;
     flex-flow:row nowrap ;
     height: 100px;
     align-items: center;
 }
 .logo{
-     background:#ea5455;
-     flex:1 1 auto;
-     height: 30px;
+     /* background:#ea5455; */
+     flex:1 1 contain;
+     height: 50px;
 }
 .nav{
-     background:#ea5455;
+     /* background:#ea5455; */
      flex:5 1 auto;
      height: 30px;
+     font-size: 18px;
+    
+}
+.flexnav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color:#A0C3D2
+     
 }
 .social{
-     background:#ea5455;  
-     flex:1 1 auto;
+     /* background:#ea5455;   */
+     flex:1 1 contain;
      height: 30px;
+     display: flex;
+     height: 25px;
 }
 .texto-principal{
-    background: #f07b3f;
+    
+    text-align: center;
+    
 }
-h1{
-    background: #ffd460 ;
+.texto-color{
+    color:#EA5455;
+    font-size: 30px;
+    opacity: 60%;
 }
+
  
 .section{
     background: white;
@@ -85,7 +106,7 @@ h1{
 
 h5{
     color:white;
-    background-color: #A0C3D2;
+    
     /* margin:0 0 0 0; */
 }
 .cultura-color{
@@ -128,7 +149,7 @@ img{
 }
 
 .footer{
-    background: #000;
+    
     display:flex;
      justify-content: center;
 }
